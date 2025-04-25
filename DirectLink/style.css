@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+h1 i{
+    font-size: 8em;
+}

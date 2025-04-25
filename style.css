@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Cascadia Code";
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/IMAGE/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.content > div {
+  width: 250px;
+  text-align: center;
+  background:  rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  position: relative;
+  z-index: 2;
+}
+
+.content img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 3;
+  position: relative;
+}
+
+.content img:hover {
+  transform: scale(1.4);
+}
+
+.content h1 {
+  text-shadow: 2px 2px 1px rgb(126, 36, 204);
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.Creator {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: white;
+  border-radius: 6px;
+  flex-wrap: wrap;
+}
+
+.Creator a{
+    text-decoration: none;
+}
+.Creator i {
+  font-size: 45px;
+}
+
+.Creator h1 {
+  font-size: 40px;
+  padding: 0 20px;
+}
+
+.Creator h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Creator img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
