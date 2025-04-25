@@ -94,3 +94,23 @@ body {
   height: 60px;
   border-radius: 50%;
 }
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.pop-element {
+  transform: scale(0);
+  opacity: 0;
+}
+
+.popped {
+  animation: popIn 0.4s ease-out forwards;
+}
